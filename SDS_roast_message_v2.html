@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SDS – Shed Disaster Supplies</title>
+  <style>
+    :root {
+      --bg: #0b0f0c;
+      --card: #111a13;
+      --text: #f2f6f3;
+      --muted: #a9b7ad;
+      --accent: #38d46a;
+      --border: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: radial-gradient(1200px 600px at 50% -10%, rgba(56,212,106,.20), transparent 55%), var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 56px;
+    }
+    .badge {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255,255,255,.04);
+      backdrop-filter: blur(6px);
+    }
+    .dot {
+      width: 10px; height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 0 6px rgba(56,212,106,.12);
+    }
+    h1 {
+      margin: 16px 0 10px;
+      font-size: clamp(26px, 4vw, 40px);
+      letter-spacing: .4px;
+    }
+    .sub {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .card {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 14px 40px rgba(0,0,0,.35);
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .footer {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(255,255,255,.18);
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+    }
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge">
+      <span class="dot"></span>
+      <strong>SDS</strong>
+      <span style="color: var(--muted);">Shed Disaster Supplies</span>
+    </div>
+
+    <h1>You opened the SDS kit.</h1>
+    <p class="sub">This page exists because the exact tools you needed have vanished.</p>
+
+    <div class="card">
+<pre>Congratulations. You’ve opened the SDS kit.
+This didn’t happen by accident.
+
+You haven’t lost every tool you own.
+Just the exact ones you need.
+Which somehow makes this worse.
+
+They’re not “around somewhere”.
+They’re not “in the shed, I swear”.
+They’ve temporarily vanished at the worst possible time.
+
+You didn’t put it down “just for a second”.
+You didn’t lend it to a mate.
+You made a series of small decisions that led you here.
+
+You are now operating on backup gear,
+cable ties, WD-40, blind confidence,
+and the dangerous belief that swearing counts as problem-solving.
+
+This is peak tradie embarrassment.
+Work fast. Work quiet.
+If anyone asks what you’re doing, say “just checking something”.
+
+Once the job is bodged to an acceptable standard,
+immediately begin the shame-filled search for the real tools you know you own.
+
+Do not mention this kit.
+Do not take photos.
+Do not let your mates find out you opened it.
+
+Remember:
+The tools didn’t fail you.
+The shed didn’t fail you.
+You failed the shed.</pre>
+
+      <div class="footer">
+        <span class="pill">Emergency use only</span>
+        <span class="pill">No photos • No witnesses</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
